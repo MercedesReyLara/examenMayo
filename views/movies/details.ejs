@@ -20,10 +20,11 @@
 <body>
     <div id="película">ESTOS SON LOS DATOS DE NUESTRA PRIMERA PELÍCULA
         <hr>
-        <ul class="local">
-            <li class="name">ID DE LA PELÍCULA <%= movie_id %></li>
-            <li class="name">NOMBRE DE LA PELÍCULA <%= name %></li>
-        </ul>
+        <%= for(var i=0;i<movie.length;i++) { %>
+            ID DE LA PELÍCULA <%= movie[i].id %>
+       Título Original: <%= movie[i].original_title %>
+        Título:<%= movie[i].title %>
+        Idioma Original:<%= movie[i].original_language %>
     </div>
     </body>
     </html>
