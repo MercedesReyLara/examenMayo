@@ -1,3 +1,20 @@
 div#uno{
     color:bisque;
+    margin-left:30%;
+    font-size: xx-large;
+}
+body{
+    background-color: grey;
+}
+p#dos{
+    color:black;
+    font-size: x-large;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+a{
+    margin-left: 10%;
+    color:bisque;
+    font-size: x-large;
 }
