@@ -19,22 +19,10 @@
 </head>
 <body>
     <div id="uno">ESTA ES LA LISTA DE LAS ULTIMAS 10 PELÍCULAS</div>
-    <table>
-        <thead>
-            <tr>
-            <th>Titulo original</th>
-            <th>Titulo</th>
-            <th>Idioma Original</th>
-        </tr>
-        </thead>
-        <tbody>
-            <tr>
     <% for(var i=0;i<movies.length;i++){%>
-        <td><%= movies[i].original_title %></td>
-        <td><%= movies[i].title %></td>
-        <td><%= movies[i].original_language %></td>
+       Título Original: <%= movies[i].original_title %>
+        Título:<%= movies[i].title %>
+        Idioma Original<%= movies[i].original_language %>
+        <hr>
     <%}%>
-</tr>
-</tbody>
-</table>
 </body>
