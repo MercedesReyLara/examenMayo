@@ -3,7 +3,7 @@ const mMovieDetail = require('../models/movie_detail.model');
 
 exports.getMovieDetails = async (req, res) => {
     const { body, params, query} = req;
-    const { id } = params;
+    const  {id}  = params;
 
     // Buscamos la pelicula por su id
     const movie = await mMovieDetail.findOne({ id });

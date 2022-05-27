@@ -19,12 +19,13 @@
 </head>
 <body>
     <div id="película">ESTOS SON LOS DATOS DE NUESTRA PRIMERA PELÍCULA
-        <hr>
-        <%= for(var i=0;i<movie.length;i++) { %>
-            ID DE LA PELÍCULA <%= movie[i].id %>
+        <% for(var i=0;i<movie.length;i++) { %>
+       ID DE LA PELÍCULA <%= movie[i].id %>
        Título Original: <%= movie[i].original_title %>
         Título:<%= movie[i].title %>
         Idioma Original:<%= movie[i].original_language %>
+        <hr>
+        <% } %>
     </div>
     </body>
     </html>
