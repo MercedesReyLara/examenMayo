@@ -25,3 +25,8 @@ div#listado{
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
 }
+p#prueba{
+    font-size: x-large;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
