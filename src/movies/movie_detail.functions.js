@@ -1,4 +1,4 @@
-const mMovie       = require('../models/movie_detail.model');
+const mMovie       = require('../models/movie.model');
 const mMovieDetail = require('../models/movie_detail.model');
 
 exports.getMovieDetails = async (req, res) => {

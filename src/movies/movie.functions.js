@@ -1,4 +1,4 @@
-const mMovie = require('../models/movie.model');
+const mMovie = require('../models/movie_detail.model');
 
 exports.getLast = async (req, res) => {
 
@@ -30,6 +30,5 @@ exports.getFirstMovie = async (req, res) => {
 
     // TODO: Teneis que hacer el detalle de la pelicula
     // Mostramos el detalle de la pelicula
-    // res.render('movies/details', {movie});
-    res.send(movie)
+     res.render('movies/details', {movie});
 }
