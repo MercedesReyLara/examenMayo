@@ -18,5 +18,8 @@
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="uno">AQUÍ TE MOSTRAMOS NUESTRA PRIMERA PELÍCULA</div>
+    <div id="uno">ESTA ES LA LISTA DE LAS ULTIMAS 10 PELÍCULAS</div>
+    <%= for(var i=0;i<movies.length;i++)%>
+    <%= movies[i].movie_id%>
+    <%= movies[i].name%>
 </body>
