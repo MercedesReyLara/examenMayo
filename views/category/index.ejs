@@ -18,12 +18,11 @@
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>PÁGINA PARA VER TUS CATEGORÍAS</h1>
-    <p id="prueba">DALE AL BOTÓN DE VER LISTA PARA VER LA LISTA DE CATEGORÍAS
-        <br>
-        DALE AL BOTÓN DE BUSCAR POR ID PARA ACCEDER A UNA CATEGORÍA CONCRETA
-    </p>
+    <%= for(var i=0;i<10;i++) { %>
+    ID DE LA CATEGORIA <% categories[i]._id %>
+    TITULO DE LA CATEGORIA <% categories[i].title %>
+    NOMBRE DE LA CATEGORÍA <% categories[i].name %>
+    DESCRIPCION DE LA CATEGORIA <% categories[i].description %>
+    <%= } %>
     </body>
-    <a href="/list">LISTA</a>
-    <a href="/:id">BUSCAR POR ID</a>
     </html>
