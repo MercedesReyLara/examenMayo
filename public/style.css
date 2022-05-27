@@ -19,3 +19,8 @@ a{
     font-size: x-large;
     margin-top:5%;
 }
+div#listado{
+    color: white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
